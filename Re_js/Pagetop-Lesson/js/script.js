@@ -1,7 +1,7 @@
 $(function () {
   //$('#id名 要素名') idの子要素に対してのみ指定
   $('#back a').on('click', function (event) {
-  //#back内のaタグがクリックされたときの処理
+  //aタグがクリックされたときの処理
     $('body, html').animate({
       scrollTop: 0
     }, 800);
